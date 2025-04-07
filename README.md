@@ -21,6 +21,9 @@ The SQL script creates and populates a pizza sales database, including tables su
 
 To enable time-based analysis, the order_date column—originally stored as TEXT—was converted to the DATE datatype using the STR_TO_DATE() function in MySQL. This allows accurate filtering, sorting, and grouping by date for insights like daily sales and peak order times.
 
+## SQL File
+- <a href="https://github.com/diveshpatil01/SQL-Pizza-Sales-Analysis/blob/main/PizzaDBScript.sql">Project File</a>
+
 ## 🔍 Project Insights
 - Popular Pizzas: Classic and Deluxe pizzas are the most ordered.
 - Top Size: Large-sized pizzas sell the most.
